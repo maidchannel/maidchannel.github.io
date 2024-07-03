@@ -1,1 +1,1 @@
-# maidchannel.github.io
+Practice site for studying web app deployment!
