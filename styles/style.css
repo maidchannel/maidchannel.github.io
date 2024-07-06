@@ -18,11 +18,12 @@ li {
   }
 
   html {
-    background-color: #000405;
+    background-color: #04323d;
   }
   
   body {
-    width: 1600px;
+    width: auto;
+    height: 100%;
     margin: 0 auto;
     background-color: #0097df;
     padding: 0 20px 20px 20px;
@@ -33,4 +34,20 @@ li {
     display: block;
     margin: 0 auto;
   }
-  
+/* Style a button for clicking */
+  button {
+    /* Center a single button */
+    margin: auto;
+    display: block;
+    /* Actual button styling */
+    font-family: "helvetica neue", helvetica, sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border: 2px solid rgba(3, 3, 0, 0.6);
+    background-color: #c47be6;
+    color: #000000;
+    box-shadow: 1px 1px 2px rgb(0 0 200 / 40%);
+    border-radius: 10px;
+    padding: 3px 10px;
+    cursor: pointer;
+  }
