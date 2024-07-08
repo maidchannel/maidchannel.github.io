@@ -8,13 +8,11 @@ myHeading.textContent = "Maid Channel";
 //  });
 
   // Adds a button to click and returns response in text
-  document.addEventListener("DOMContentLoaded", () => {
     function createParagraph() {
         const para = document.createElement("p");
         para.textContent = "This button reserved for future use, don't touch me!"
         document.body.appendChild(para);
     }
-  })
 
   const buttons = document.querySelectorAll("button");
 
